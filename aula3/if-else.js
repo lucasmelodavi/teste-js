@@ -41,7 +41,7 @@ const cidades = {
   }
 };
 
-if (cidades.BeloHorizonte.populacao > 1773718) {
+if (cidades.GovernadorValadares.populacao > 1773718) {
   console.log("A cidade é grande");
 } else {
   console.log("A cidade não é grande");
