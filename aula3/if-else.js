@@ -25,7 +25,7 @@ Dados de Comparação
  ==     Igual (não recomendado)         
  !==    Diferente      
 
- n
+ 
 */
 
 const notaDoAluno = 5.9
