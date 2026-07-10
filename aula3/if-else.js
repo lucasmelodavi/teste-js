@@ -28,10 +28,21 @@ Dados de Comparação
  
 */
 
-const notaDoAluno = 5.9
+            
+const cidades = {
+  Tarumirim: {
+    populacao: 14585
+  },
+  GovernadorValadares: {
+    populacao: 328901
+  },
+  BeloHorizonte: {
+    populacao: 2315560
+  }
+};
 
-if(notaDoAluno >= 6) {
-    console.log("Aluno aprovado")
+if (cidades.BeloHorizonte.populacao > 1773718) {
+  console.log("A cidade é grande");
 } else {
-    console.log("Aluno reprovado")
+  console.log("A cidade não é grande");
 }
